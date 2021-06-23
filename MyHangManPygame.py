@@ -1,6 +1,10 @@
 # Maria Suarez
 # Create a Hanggman version of the game:
 # Use images in a list, Use Fonts, render them
+# Create message function
+#create man function
+#chreat initial function
+
 import os, sys, time, pygame, random, math
 
 os.system('cls')

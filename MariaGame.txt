@@ -1,0 +1,7 @@
+Peter	6/15/2021	Tuesday		2
+Maria	6/15/2021	Tuesday		1
+Maria	6/15/2021	Tuesday		3
+MAria	6/15/2021	Tuesday		1
+peter	6/15/2021	Tuesday		5
+MAria	6/15/2021	Tuesday		4
+peter	6/15/2021	Tuesday		1

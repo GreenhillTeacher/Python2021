@@ -4,7 +4,8 @@
 # Asking the user which table
 # input ---> user input using the input fuction
 # variables need to have valid name 
-base = input()
+answer = input()
+base = int(answer)
  #nested for loop
 for base in range (2, 10):
     print("Multiplication Table", base)

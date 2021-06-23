@@ -5,4 +5,8 @@
 # input ---> from the user
 # use the function input()
 # variables need to have valid name 
-base= input() 
+base = int(input())
+while base<30:
+    print (base, "Now give me another number")
+    base=int(input())
+print( "goodbye")

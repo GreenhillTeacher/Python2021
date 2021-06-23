@@ -3,7 +3,7 @@
 # Use images in a list, Use Fonts, render them
 # Create message function
 #create man function
-#chreat initial function
+#create initial function
 
 import os, sys, time, pygame, random, math
 

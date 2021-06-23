@@ -6,12 +6,12 @@ import os
 
 os.system('cls')
 name=input("What is your name? ")
-
+start=input('Would you like to play? (yes/no) ')
 
 adj = {'tall':'alto', 'small':'chico', 'big':'grande', 'good':'bueno', 'fast':'rapido', 'old':'viejo', 'long':'largo', 'fat':'gordo', 'slow':'lento', 'short':'corto'}
 verb = {'throw':'lanzar', 'stand up':'levantarse', 'sit down':'sentarse', 'run':'correr', 'walk':'caminar', 'sleep':'dormir', 'eat':'comer', 'write':'escribir', 'drink':'beber', 'go to':'ir'}
 hobby = {'swimming':'nadar','play basketball':'jugar baloncesto','play soccer':'jugar futbol','play video games':'jugar juego de videos','watch TV':'ver televiion','play outside':'jugar afuera','drawing':'dibujar','go online':'navegar la red','play ping pong':'jugar ping pong','watch movies':'ver una pelicula'}
-start=input('Would you like to play? (yes/no) ')
+
 
 def GAME():
     score = 0
@@ -67,7 +67,7 @@ def MENU():
     print('***********************************************************')
 
 
-if 'y' in start:
+while 'y' in start:
     score = 0
     print('')
     MENU()
@@ -88,6 +88,6 @@ if 'y' in start:
         print('Thanks for playing! Hope to see you soon.')
         time.sleep(3)
         sys.exit()
-
-elif start == 'no':
-    sys.exit()
+    
+    elif start == 'no':
+        sys.exit()

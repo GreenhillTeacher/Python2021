@@ -47,6 +47,7 @@ def GAME():
     start=input('Do you want to play again? (yes/no) ').lower()
 
 def MENU():
+    os.system('cls')
     print("***********************************************************")
     print('*                    Guess word meanings                  *')
     print('*                   ~~ Spanish Edition ~~                 *')
@@ -86,7 +87,7 @@ while 'y' in start:
         GAME()
     elif set == 'exit':
         print('Thanks for playing! Hope to see you soon.')
-        time.sleep(3)
+        time.sleep(1)
         sys.exit()
     
     elif start == 'no':
